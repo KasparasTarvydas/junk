@@ -1,0 +1,44 @@
+/* to do listtttt: 
+Pagrindinis puslapis (doing)
+Kontaktų puslapis
+Apie sritis
+Informacija stojantiesiems (arba atskirai pagal klasę arba atskirti viename puslapyje)
+Tvarkaraščio puslapis su šios savaitės pamokomis (i think done)
+
+make sides filled bro
+make website not look like shiieet
+*/
+body {
+    background-color: rgb(169, 162, 186);       
+}
+.junk {
+    background-color: rgb(195, 195, 195);
+    height: 5rem;
+    width: 100%;
+    padding-left: 10px;
+}
+.junk a img {width: 4rem; height: 4rem; object-fit: cover; vertical-align: middle; padding-top: 0.5rem;}
+/*.junk h2 {display: inline-block;}*/
+.junk a {font-size: 125%; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+
+.container {
+    height: 50rem;
+    background-color: rgba(0, 0, 0, 0.28);
+}
+
+
+
+.foot {
+    background-color: rgb(195, 195, 195);
+    height: 7rem;
+    /*border: 3px solid black;*/
+    width: 100%;
+    display: inline-block;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(225, 225, 224);
+}
