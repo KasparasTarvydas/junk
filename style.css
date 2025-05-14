@@ -1,11 +1,8 @@
 /* to do listtttt: 
 Pagrindinis puslapis (doing)
-Kontaktų puslapis
 Apie sritis
-Informacija stojantiesiems (arba atskirai pagal klasę arba atskirti viename puslapyje)
-Tvarkaraščio puslapis su šios savaitės pamokomis (i think done)
-
-make website not look like shiieet
+Informacija stojantiesiems (arba atskirai pagal klasę arba atskirti viename puslapyje) (doing)
+MAKE A TIMETABLE PAGE
 */
 body {
     background: linear-gradient(0deg, rgb(0, 0, 0) 0%,rgb(23, 23, 23) 25%, rgb(23, 23, 23) 80%, rgb(0, 0, 0) 100%);
@@ -56,6 +53,7 @@ body {
 }
 
 .infooo1 {
+    opacity: 0.5;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpu2t7tX77l3ZfVPksnnII5XGdVHM2qORvCYm1odLt7hE7byEA);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -63,6 +61,19 @@ body {
     margin: auto;
     width: 80%;
 }
+
+.stojantiesiemsboogeraids{
+    color: rgb(228, 224, 224);
+    text-align: left;
+    width: 75%;
+    margin: auto;
+    padding: 1rem;
+    border: 2px rgba(255, 255, 255, 0.044) solid;
+    box-shadow: 0 0.2rem 1rem rgba(255, 255, 255, 0.069);
+    line-height: 1.5;
+}
+h2{text-shadow: 0 0 1rem rgba(255, 255, 255, 0.333);}
+h1{text-align: center;}
 
 
 
