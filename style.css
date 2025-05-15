@@ -1,9 +1,3 @@
-/* to do listtttt: 
-Pagrindinis puslapis (doing)
-add sritis
-uhhh make parts in one window in timestable page
-Github repozitorijoje turėtų matytis visų dirbančių darbas.
-*/
 body {
     background: linear-gradient(0deg, rgb(0, 0, 0) 0%,rgb(23, 23, 23) 25%, rgb(23, 23, 23) 80%, rgb(0, 0, 0) 100%);
     /*background: linear-gradient(0degrgb(0, 0, 0)6) 0%, rgb(195, 195, 195) 20%, rgb(195, 195, 195) 90%, rgb(153, 127, 214) 100%);*/
@@ -23,6 +17,18 @@ body {
     border-bottom: 2px rgb(255, 255, 255) solid;
     box-shadow: 0 0.2rem 1rem rgba(255, 255, 255, 0.527);
     background: linear-gradient(0deg,rgba(81, 80, 80, 0) 15%, rgba(237, 237, 237, 0.05) 50%, rgba(81, 80, 80, 0) 85%);
+}
+
+.MapThing {
+    background-image: url(DANGDOGOGGG.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-width: 15rem;
+    max-width: 50rem;
+    max-height: 40rem;
+    min-height: 15rem;
+    border: 3px rgba(255, 255, 255, 0.15) solid;
+    box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.371);
 }
 
 .junk{padding: 2% 10% 0% 0%;}
@@ -66,23 +72,10 @@ body {
     grid-template-columns: 50% 50%;
 }
 
-.MapThing {
-    background-image: url(DANGDOGOGGG.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    min-width: 15rem;
-    max-width: 50rem;
-    max-height: 40rem;
-    min-height: 15rem;
-    border: 3px rgba(255, 255, 255, 0.15) solid;
-    box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.371);
-}
-
 .newsss{
-    margin: auto;
-    margin-top: 3rem;
+    margin: 3rem 10% 0 20%;
+    max-width: 30rem;
     height: 25rem;
-    width: 25rem;
     padding: 2rem;
     border: 3px rgba(255, 255, 255, 0.049) solid;
 }
