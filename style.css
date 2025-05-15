@@ -1,13 +1,14 @@
 /* to do listtttt: 
 Pagrindinis puslapis (doing)
 Apie sritis
-Informacija stojantiesiems (arba atskirai pagal klasę arba atskirti viename puslapyje) (doing)
 MAKE A TIMETABLE PAGE
+Github repozitorijoje turėtų matytis visų dirbančių darbas.
 */
 body {
     background: linear-gradient(0deg, rgb(0, 0, 0) 0%,rgb(23, 23, 23) 25%, rgb(23, 23, 23) 80%, rgb(0, 0, 0) 100%);
     /*background: linear-gradient(0degrgb(0, 0, 0)6) 0%, rgb(195, 195, 195) 20%, rgb(195, 195, 195) 90%, rgb(153, 127, 214) 100%);*/
     box-sizing: border-box; 
+    margin: 0;
 }
 
 .uhhMainNavBar {
@@ -22,8 +23,6 @@ body {
     border-bottom: 2px rgb(255, 255, 255) solid;
     box-shadow: 0 0.2rem 1rem rgba(255, 255, 255, 0.527);
 }
-
-
 
 .junk{padding: 2% 10% 0% 0%;}
 .fuckassIcon a img {margin: auto; max-width: 10rem; padding-top: 0.5rem;}
@@ -40,27 +39,27 @@ body {
 }
 
 
-
-
-
 .RANDOMJUNKKKKKKK {
-    height: 75rem;
     align-content: stretch;
     border: 5px rgba(0, 0, 0, 0.05) solid;
-    width: 90%;
+    width: 100%;
     margin: auto;
     text-align: center;
+    padding-bottom: 3rem;
+    min-height: 75rem;
 }
 
 .infooo1 {
-    opacity: 0.5;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    text-shadow: 0 0 1rem white;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpu2t7tX77l3ZfVPksnnII5XGdVHM2qORvCYm1odLt7hE7byEA);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 25%;
+    height: 20rem;
     margin: auto;
-    width: 80%;
+    width: 100%;
 }
+
 
 .stojantiesiemsboogeraids{
     color: rgb(228, 224, 224);
@@ -82,8 +81,9 @@ h1{text-align: center;}
 
 
 .foot {
+    color: rgb(225, 225, 224);
     background-color: rgb(195, 195, 195);
-    height: 10rem;
+    height: 15rem;
     width: 100%;
     display: inline-block;
     line-height: 1rem;
@@ -99,4 +99,5 @@ h1{text-align: center;}
 
 h1, h2, h3, h4, h5, h6 {
     color: rgb(225, 225, 224);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
