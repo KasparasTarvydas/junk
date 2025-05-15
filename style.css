@@ -1,6 +1,7 @@
 /* to do listtttt: 
 Pagrindinis puslapis (doing)
-MAKE A TIMETABLE PAGE
+add sritis
+uhhh make parts in one window in timestable page
 Github repozitorijoje turėtų matytis visų dirbančių darbas.
 */
 body {
@@ -91,39 +92,104 @@ body {
     padding: 2rem;
 }
 
+
+
+
+
+
+
+
+
 .dangTimesTalb{
     display: grid;
-    grid-template-columns: 10% 90% ;
-    grid-template-rows: 16% 16% 16% 16% 16%;
+    grid-template-columns: 12% 88% ;
+    grid-template-rows: 13% 70%;
 
+    margin: auto;
     color: rgb(228, 224, 224);
     text-align: center;
-    width: 75rem;
-    height: 45rem;
-    margin: auto;
-    border: 3px rgba(255, 255, 255, 0.433) solid;
+    width: 70rem;
+    height: 40rem;
+    border: 3px rgba(255, 255, 255, 0.109) solid;
     /*border: 3px rgba(255, 255, 255, 0.049) solid;*/
     box-shadow: 0 0.2rem 1rem rgba(255, 255, 255, 0.069);
-    line-height: 0.5;
 }
 .topBarrrTime {
     display: grid;
-    grid-template-columns: 10% 9% 9% 9% 9% 9% 9% 9% 9% 9% 9% ;
-    grid-template-rows: 16% 16% 16% 16% 16%;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+    color: rgb(228, 224, 224);
+    text-align: center;
+    /*border: 3px rgba(255, 255, 255, 0.049) solid;*/
+    line-height: 0.5;
+    border-bottom: 3px rgba(255, 8, 8, 0.752) solid;
+    border-left: 3px rgba(255, 8, 8, 0.752) solid;
+}
+.TIME {
+    border-right: 2px rgba(255, 8, 8, 0.752) solid;
+    /*border: 2px rgba(255, 255, 255, 0) solid;*/
+    width: 100%;
+    height: 95%;
+}
+.BLANK{border-bottom: 3px rgba(255, 8, 8, 0.752) solid;}
+
+
+
+.LeftBarTime {
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25% 25%;
 
     color: rgb(228, 224, 224);
     text-align: center;
-    width: 75rem;
-    height: 45rem;
-    margin: auto;
-    border: 3px rgba(255, 255, 255, 0.433) solid;
-    /*border: 3px rgba(255, 255, 255, 0.049) solid;*/
-    box-shadow: 0 0.2rem 1rem rgba(255, 255, 255, 0.069);
-    line-height: 0.5;
+}
+.LeftBarTime div {
+    border-top: 2px rgb(255, 8, 8) solid;
+    border-right: 3px rgb(255, 8, 8) solid;
+    width: 100%;
 }
 
-.TIME {
-    border: 2px white solid;
+
+
+.CURRENTLessons {
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+
+    color: rgb(228, 224, 224);
+    row-gap: 1.4rem;
+    padding-left: 0.15rem;
+}
+.WEEEK {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    color: rgb(228, 224, 224);
+}
+.LESSON {
+    border: 1px rgba(221, 221, 221, 0.752) solid;
+    width: 100%;
+    height: 101%;
+    word-wrap: break-word;
+    background: linear-gradient(0deg,rgba(81, 80, 80, 0.5) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(81, 80, 80, 0.4) 100%);
+}
+.LESSON p {height: 2.7rem;}
+.lessonStuff {
+    border-top: 2px rgba(255, 8, 8, 0.752) solid;
+    padding-top: 0.2rem;
+}
+.LESSON h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    display: inline;
+    padding-left: 1rem;
+}
+.LESSON h5 {
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline;
+    padding-right: 1rem;
+}
+.LESSON h6 {
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline;
+    padding-left: 0.2rem;
+    word-wrap: break-word;
 }
 
 
@@ -139,7 +205,7 @@ body {
     line-height: 1.5;
 }
 .stojantiesiemsboogeraids > .boogeraid1{border-top: 1px rgb(152, 151, 151) solid; border-bottom:1px rgb(152, 151, 151) solid;}
-h2{text-shadow: 0 0 1rem rgba(255, 255, 255, 0.333);}
+.boogeraid1 h2{text-shadow: 0 0 1rem rgba(255, 255, 255, 0.333);}
 h1{text-align: center;}
 
 
