@@ -1,63 +1,236 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>main page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="wholepage">
-        <nav class="uhhMainNavBar">
-            <div class="fuckassIcon">
-                <a href="index.html" target=""><img src="https://kitm.lt/themes/custom/kitm/assets/images/2%401X.png" alt="" align="right"></a>
-            </div>
-            <div class="junk" align="right"> <!--make this shit fill the sized-->
-                <a href="Timestable.html">TVARKARAŠTIS</a>
-                <a href="stojantiems.html">STOJANTIESIEMS</a>
-            </div>
-        </nav>
+/* to do listtttt: 
+Pagrindinis puslapis (doing)
+add sritis
+uhhh make parts in one window in timestable page
+Github repozitorijoje turėtų matytis visų dirbančių darbas.
+*/
+body {
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%,rgb(23, 23, 23) 25%, rgb(23, 23, 23) 80%, rgb(0, 0, 0) 100%);
+    /*background: linear-gradient(0degrgb(0, 0, 0)6) 0%, rgb(195, 195, 195) 20%, rgb(195, 195, 195) 90%, rgb(153, 127, 214) 100%);*/
+    box-sizing: border-box; 
+    margin: 0;
+}
+
+.uhhMainNavBar {
+    background-color: rgb(195, 195, 195);
+    height: 5rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+    background: black;
+    border: 2px rgba(255, 255, 255, 0.259) solid;
+    border-bottom: 2px rgb(255, 255, 255) solid;
+    box-shadow: 0 0.2rem 1rem rgba(255, 255, 255, 0.527);
+}
+
+.junk{padding: 2% 10% 0% 0%;}
+.fuckassIcon a img {margin: auto; max-width: 10rem; padding-top: 0.5rem;}
+.junk a {
+    -webkit-text-stroke: 0.5px rgba(193, 190, 190, 0.521);
+    font-size: 150%; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: rgb(255, 252, 252);
+    text-decoration: none;
+    margin-left: 3rem;
+}
+.junk a:hover {
+    color: rgba(255, 252, 252, 0.767);
+}
 
 
-        
-        <div class="RANDOMJUNKKKKKKK">
-            <div class="infooo1">
-                <h1>KAUNO INFORMACINIŲ TECHNOLOGIJŲ MOKYKLA</h1>
-                <h2>uhhh go away this page is very partial</h2>
-            </div>
-
-            <div class="SomeJunk">
-                <div class="newsss">
-                    <div>
-                        <h1 style="text-align: center;">NAUJIENOS</h1>
-                        <div class="sliderrr">
-                            <h1>Nėra naujienu :(</h1>
-                                <div class="NewsDescription">
-                                    <p>TEXT</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <div class="somehistoryjunk">
-                    <h1 style="text-align: center;">bla bla boring history</h1>
-                    <div class="NewsDescription">
-                        <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+.RANDOMJUNKKKKKKK {
+    align-content: stretch;
+    border: 5px rgba(0, 0, 0, 0.05) solid;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 3rem;
+    min-height: 75rem;
+}
+.infooo1 {
+    padding-top: 20%;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    text-shadow: 0 0 1rem white;
+    background-image: url(DANGDOGOGGG.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 20rem;
+    margin: auto;
+    width: 100%;
+}
 
 
+.SomeJunk {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 
-        <div class="foot">
-            <h1>KONTAKTAI</h1>
-            <div style="line-height: 0.2rem;"></div>
-                <h3>info@kitm.lt</h3> 
-                <h3>+370 600 63439</h3>
-                <h3> Laisvės al. 33, Kaunas 44311</h3>
-                <p>Juridinio asmens kodas 290972940</p>
-            </div>
-        </div><!-- style="display: inline; -->
-    </div>
-</body>
-</html>
+.newsss{
+    margin: 3rem 5% 0 10%;
+    padding: 2rem;
+    border: 3px rgba(255, 255, 255, 0.049) solid;
+}
+.NewsDescription {
+    color: rgb(225, 225, 224);
+    border-top: 3px rgba(255, 255, 255, 0.049) solid;
+    height: 65%;
+    margin: auto;
+}
+.sliderrr {
+    background-image: url(DANGDOGOGGG.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 15rem;
+    border: 3px rgba(255, 255, 255, 0.15) solid;
+    box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.371);
+}
+
+.somehistoryjunk {
+    border: 3px rgba(255, 255, 255, 0.049) solid;
+    margin: 3rem 10% 0 5%;
+    padding: 2rem;
+}
+
+
+
+
+
+
+
+
+
+.dangTimesTalb{
+    display: grid;
+    grid-template-columns: 12% 88% ;
+    grid-template-rows: 13% 70%;
+
+    margin: auto;
+    color: rgb(228, 224, 224);
+    text-align: center;
+    width: 70rem;
+    height: 40rem;
+    border: 3px rgba(255, 255, 255, 0.109) solid;
+    /*border: 3px rgba(255, 255, 255, 0.049) solid;*/
+    box-shadow: 0 0.2rem 1rem rgba(255, 255, 255, 0.069);
+}
+.topBarrrTime {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+    color: rgb(228, 224, 224);
+    text-align: center;
+    /*border: 3px rgba(255, 255, 255, 0.049) solid;*/
+    line-height: 0.5;
+    border-bottom: 3px rgba(255, 8, 8, 0.752) solid;
+    border-left: 3px rgba(255, 8, 8, 0.752) solid;
+}
+.TIME {
+    border-right: 2px rgba(255, 8, 8, 0.752) solid;
+    /*border: 2px rgba(255, 255, 255, 0) solid;*/
+    width: 100%;
+    height: 95%;
+}
+.BLANK{border-bottom: 3px rgba(255, 8, 8, 0.752) solid;}
+
+
+
+.LeftBarTime {
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25% 25%;
+
+    color: rgb(228, 224, 224);
+    text-align: center;
+}
+.LeftBarTime div {
+    border-top: 2px rgb(255, 8, 8) solid;
+    border-right: 3px rgb(255, 8, 8) solid;
+    width: 100%;
+}
+
+
+
+.CURRENTLessons {
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+
+    color: rgb(228, 224, 224);
+    row-gap: 1.4rem;
+    padding-left: 0.15rem;
+}
+.WEEEK {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    color: rgb(228, 224, 224);
+}
+.LESSON {
+    border: 1px rgba(221, 221, 221, 0.752) solid;
+    width: 100%;
+    height: 101%;
+    word-wrap: break-word;
+    background: linear-gradient(0deg,rgba(81, 80, 80, 0.5) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(81, 80, 80, 0.4) 100%);
+}
+.LESSON p {height: 2.7rem;}
+.lessonStuff {
+    border-top: 2px rgba(255, 8, 8, 0.752) solid;
+    padding-top: 0.2rem;
+}
+.LESSON h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    display: inline;
+    padding-left: 1rem;
+}
+.LESSON h5 {
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline;
+    padding-right: 1rem;
+}
+.LESSON h6 {
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline;
+    padding-left: 0.2rem;
+    word-wrap: break-word;
+}
+
+
+
+.stojantiesiemsboogeraids{
+    color: rgb(228, 224, 224);
+    text-align: left;
+    width: 75%;
+    margin: auto;
+    padding: 1rem;
+    border: 3px rgba(255, 255, 255, 0.049) solid;
+    box-shadow: 0 0.2rem 1rem rgba(255, 255, 255, 0.069);
+    line-height: 1.5;
+}
+.stojantiesiemsboogeraids > .boogeraid1{border-top: 1px rgb(152, 151, 151) solid; border-bottom:1px rgb(152, 151, 151) solid;}
+.boogeraid1 h2{text-shadow: 0 0 1rem rgba(255, 255, 255, 0.333);}
+h1{text-align: center;}
+
+
+
+
+
+
+.foot {
+    color: rgb(225, 225, 224);
+    background-color: rgb(195, 195, 195);
+    height: 15rem;
+    width: 100%;
+    display: inline-block;
+    line-height: 1rem;
+    text-align: center;
+
+    background: black;
+    border: 2px rgba(255, 255, 255, 0.259) solid;
+    border-top: 2px rgb(255, 255, 255) solid;
+    box-shadow: 0 0.2rem 1rem rgba(255, 255, 255, 0.527);
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(225, 225, 224);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
