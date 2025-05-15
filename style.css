@@ -22,6 +22,7 @@ body {
     border: 2px rgba(255, 255, 255, 0.259) solid;
     border-bottom: 2px rgb(255, 255, 255) solid;
     box-shadow: 0 0.2rem 1rem rgba(255, 255, 255, 0.527);
+    background: linear-gradient(0deg,rgba(81, 80, 80, 0) 15%, rgba(237, 237, 237, 0.05) 50%, rgba(81, 80, 80, 0) 85%);
 }
 
 .junk{padding: 2% 10% 0% 0%;}
@@ -48,13 +49,13 @@ body {
     min-height: 75rem;
 }
 .infooo1 {
-    padding-top: 20%;
+    padding-top: 10%;
     -webkit-text-stroke: 1px rgb(0, 0, 0);
     text-shadow: 0 0 1rem white;
     background-image: url(DANGDOGOGGG.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 20rem;
+    height: 15rem;
     margin: auto;
     width: 100%;
 }
@@ -65,15 +66,29 @@ body {
     grid-template-columns: 50% 50%;
 }
 
+.MapThing {
+    background-image: url(DANGDOGOGGG.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-width: 15rem;
+    max-width: 50rem;
+    max-height: 40rem;
+    min-height: 15rem;
+    border: 3px rgba(255, 255, 255, 0.15) solid;
+    box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.371);
+}
+
 .newsss{
-    margin: 3rem 5% 0 10%;
+    margin: auto;
+    margin-top: 3rem;
+    height: 25rem;
+    width: 25rem;
     padding: 2rem;
     border: 3px rgba(255, 255, 255, 0.049) solid;
 }
 .NewsDescription {
     color: rgb(225, 225, 224);
     border-top: 3px rgba(255, 255, 255, 0.049) solid;
-    height: 65%;
     margin: auto;
 }
 .sliderrr {
@@ -81,7 +96,8 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
-    height: 15rem;
+    max-height: 40rem;
+    min-height: 15rem;
     border: 3px rgba(255, 255, 255, 0.15) solid;
     box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.371);
 }
@@ -204,7 +220,11 @@ body {
     box-shadow: 0 0.2rem 1rem rgba(255, 255, 255, 0.069);
     line-height: 1.5;
 }
-.stojantiesiemsboogeraids > .boogeraid1{border-top: 1px rgb(152, 151, 151) solid; border-bottom:1px rgb(152, 151, 151) solid;}
+.stojantiesiemsboogeraids > .boogeraid1{
+    border-top: 1px rgb(152, 151, 151) solid; 
+    border-bottom:1px rgb(152, 151, 151) solid;
+    background: linear-gradient(0deg,rgba(81, 80, 80, 0) 15%, rgba(211, 211, 211, 0.05) 50%, rgba(81, 80, 80, 0) 85%);
+}
 .boogeraid1 h2{text-shadow: 0 0 1rem rgba(255, 255, 255, 0.333);}
 h1{text-align: center;}
 
@@ -226,6 +246,7 @@ h1{text-align: center;}
     border: 2px rgba(255, 255, 255, 0.259) solid;
     border-top: 2px rgb(255, 255, 255) solid;
     box-shadow: 0 0.2rem 1rem rgba(255, 255, 255, 0.527);
+    background: linear-gradient(0deg,rgba(81, 80, 80, 0) 15%, rgba(141, 141, 141, 0.05) 50%, rgba(81, 80, 80, 0) 85%);
 }
 
 
