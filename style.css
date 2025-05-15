@@ -91,6 +91,42 @@ body {
     padding: 2rem;
 }
 
+.dangTimesTalb{
+    display: grid;
+    grid-template-columns: 10% 90% ;
+    grid-template-rows: 16% 16% 16% 16% 16%;
+
+    color: rgb(228, 224, 224);
+    text-align: center;
+    width: 75rem;
+    height: 45rem;
+    margin: auto;
+    border: 3px rgba(255, 255, 255, 0.433) solid;
+    /*border: 3px rgba(255, 255, 255, 0.049) solid;*/
+    box-shadow: 0 0.2rem 1rem rgba(255, 255, 255, 0.069);
+    line-height: 0.5;
+}
+.topBarrrTime {
+    display: grid;
+    grid-template-columns: 10% 9% 9% 9% 9% 9% 9% 9% 9% 9% 9% ;
+    grid-template-rows: 16% 16% 16% 16% 16%;
+
+    color: rgb(228, 224, 224);
+    text-align: center;
+    width: 75rem;
+    height: 45rem;
+    margin: auto;
+    border: 3px rgba(255, 255, 255, 0.433) solid;
+    /*border: 3px rgba(255, 255, 255, 0.049) solid;*/
+    box-shadow: 0 0.2rem 1rem rgba(255, 255, 255, 0.069);
+    line-height: 0.5;
+}
+
+.TIME {
+    border: 2px white solid;
+}
+
+
 
 .stojantiesiemsboogeraids{
     color: rgb(228, 224, 224);
