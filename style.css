@@ -1,6 +1,5 @@
 /* to do listtttt: 
 Pagrindinis puslapis (doing)
-Apie sritis
 MAKE A TIMETABLE PAGE
 Github repozitorijoje turėtų matytis visų dirbančių darbas.
 */
@@ -42,22 +41,54 @@ body {
 .RANDOMJUNKKKKKKK {
     align-content: stretch;
     border: 5px rgba(0, 0, 0, 0.05) solid;
-    width: 100%;
     margin: auto;
     text-align: center;
     padding-bottom: 3rem;
     min-height: 75rem;
 }
-
 .infooo1 {
+    padding-top: 20%;
     -webkit-text-stroke: 1px rgb(0, 0, 0);
     text-shadow: 0 0 1rem white;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpu2t7tX77l3ZfVPksnnII5XGdVHM2qORvCYm1odLt7hE7byEA);
+    background-image: url(DANGDOGOGGG.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 20rem;
     margin: auto;
     width: 100%;
+}
+
+
+.SomeJunk {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.newsss{
+    margin: 3rem 5% 0 10%;
+    padding: 2rem;
+    border: 3px rgba(255, 255, 255, 0.049) solid;
+}
+.NewsDescription {
+    color: rgb(225, 225, 224);
+    border-top: 3px rgba(255, 255, 255, 0.049) solid;
+    height: 65%;
+    margin: auto;
+}
+.sliderrr {
+    background-image: url(DANGDOGOGGG.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 15rem;
+    border: 3px rgba(255, 255, 255, 0.15) solid;
+    box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.371);
+}
+
+.somehistoryjunk {
+    border: 3px rgba(255, 255, 255, 0.049) solid;
+    margin: 3rem 10% 0 5%;
+    padding: 2rem;
 }
 
 
