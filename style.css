@@ -82,6 +82,12 @@ body {
     width: 80%;
     margin: auto;
 }
+.SomeJunkDDDDD {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 80%;
+    margin: auto;
+}
 
 .newsss{
     margin: 3rem 5% 0 10%;
