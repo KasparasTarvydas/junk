@@ -84,7 +84,7 @@ body {
 }
 .SomeJunkDDDDD {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 60% 60%;
     width: 80%;
     margin: auto;
 }
