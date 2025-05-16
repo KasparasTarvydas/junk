@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(0deg, rgb(0, 0, 0) 0%,rgb(23, 23, 23) 25%, rgb(23, 23, 23) 80%, rgb(0, 0, 0) 100%);
+    background: linear-gradient(0deg, rgb(54, 54, 54) 0%,rgb(23, 23, 23) 25%, rgb(23, 23, 23) 80%, rgb(0, 0, 0) 100%);
     /*background: linear-gradient(0degrgb(0, 0, 0)6) 0%, rgb(195, 195, 195) 20%, rgb(195, 195, 195) 90%, rgb(153, 127, 214) 100%);*/
     box-sizing: border-box; 
     margin: 0;
